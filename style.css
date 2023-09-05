@@ -1,0 +1,59 @@
+body{
+background-color: gray;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+
+h1
+{
+	text-align: center;
+	font-family: Stencil std, fantasy;
+}
+
+h3
+{
+	text-align: center;
+
+}
+
+/*top line*/
+
+#topLineFlex{
+	display: flex;
+}
+
+#merchBox{
+border: solid 1px black;
+width: 100px;
+}
+
+#paperName{
+ text-align: center;
+ font-family: luminari, fantasy;
+}
+
+#weatherBox
+{
+	border: solid 1px black;
+	width: 200px;
+}
+
+/* ***** */
+
+
+#picDiv
+{
+	border: solid 1px black;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+img{
+	border: solid 1px black;
+}
+
+#midSectionFlex{
+	display: flex;
+}
