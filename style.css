@@ -6,11 +6,6 @@ padding-right: 20px;
 
 
 
-h1
-{
-	text-align: center;
-	font-family: Stencil std, fantasy;
-}
 
 h3
 {
@@ -22,6 +17,8 @@ h3
 
 #topLineFlex{
 	display: flex;
+	border-bottom: 1px solid;
+	padding: 5px;
 }
 
 #merchBox{
@@ -42,6 +39,30 @@ width: 200px;
 
 /* ***** */
 
+/* Pentop line */
+
+#penTopLine{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	margin-top: 10px;
+	width: 100%;
+	display: flex;
+}
+
+#pT3
+{
+
+}
+/* ****** */
+
+/* Main article title line */
+h1{
+border-top: 1px solid;
+text-align: center;
+font-family: Stencil std, fantasy;
+margin-top: 2px;
+}
+/* ***** */
 
 #picDiv
 {
